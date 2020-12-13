@@ -3,7 +3,6 @@
  * @ date : 11 décembre 2020
  */
  /* Annonce de mise à jour. */
-alert("Une importante mise à jour est prévue le dimanche 13 décembre 2020.\nLe site sera inacessible à partir de 22h.")
 /* Données du sites */
 let donnees = {
 	auteur: 'Florian COLLIN',

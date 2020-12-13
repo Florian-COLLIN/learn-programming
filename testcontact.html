@@ -15,123 +15,19 @@
 
         <div class="cadre">
 
-        <form method="post" action="mailto:florian.collin36gmail.com">
+            <form id="contact" method="post" action="traitement_formulaire.php">
+                <fieldset><legend>Vos coordonnées</legend>
+                    <p><label for="nom">Nom :</label><input type="text" id="nom" name="nom" /></p>
+                    <p><label for="email">Email :</label><input type="text" id="email" name="email" /></p>
+                </fieldset>
+                <fieldset><legend>Votre message :</legend>
+                    <p><label for="objet">Objet :</label><input type="text" id="objet" name="objet" /></p>
+                    <p><label for="message">Message :</label><textarea id="message" name="message" cols="30" rows="8"></textarea></p>
+                </fieldset>
+                <div style="text-align:center;"><input type="submit" name="envoi" value="Envoyer le formulaire !" /></div>
+            </form>
 
-        <font face="Times New Roman">
-
-            <h2><font color="#8B0000"><u>Contact</u></font></h2>
-
-            <br>
-
-            <br>
-
-            <br>
-
-            <table border="" =0>
-
-                <tr>
-
-                    <td><font color="#8B0000">*</font> Pseudonyme :</td>
-
-                    <td><input type=text size="35" name="Iddentifiant "></td>
-
-                </tr>
-
-                <tr><td><br></td><td><br></td></tr>
-
-                <tr>
-
-                    <td><font color="#8B0000">*</font> Âge :</td>
-
-                    <td>
-                    Moins de 18 ans<input type=radio name="age" value=" -18"><br>
-                    Entre 18 et 40 ans <input type=radio name="age" value=" 18-40"><br>
-                    Entre 40 ans et 60 ans<input type=radio name="age" value=" 40-60"><br>
-                    61 et plus <input type=radio name="age" value="+61">
-                    </td>
-
-                </tr>
-
-                <tr><td><br></td><td><br></td></tr>
-
-                <tr>
-
-                    <td><font color="#8B0000">*</font> Adresse maiil :</td>
-
-                    <td><input type=text size="35" name="email"></td>
-
-                </tr>
-
-                <tr><td><br></td><td><br></td></tr>
-
-                <tr> 
-
-                    <td>Sexe :</td>
-                    <td>
-                    Masculin<input type=radio name="sexe" value="Homme"><br>
-                    Féminin<input type=radio name="sexe" value="Femme"><br>
-                    Ne souhaite pas répondre<input type=radio name="sexe" value="/NA"><br>
-                    </td>
-
-                </tr>
-
-                <tr><td><br></td><td><br></td></tr>
-
-                <tr>
-
-                    <td>Quel est son vos disponibilités :</td>
-                    <td>
-
-                        <select name="disponibilités =2">
-                        <option value="Plutôt fixe">Plutôt fixe (ex : 17-22h le soir)
-                        <option value="Plutôt variable">Plutôt variable (ex : travail de nuit)
-
-                    </select>
-                    </td>
-                </tr>
-
-                <tr><td><br></td><td><br></td></tr>
-
-                <tr>
-
-                    <td>Message :</td>
-
-                    <td>
-
-                        <textarea rows="10"name="msg">
-                        </textarea>
-
-                    </td>
-
-                </tr>
-
-                <tr><td><br></td><td><br></td></tr>
-
-                <td><font color="#8B0000"><i>Attention :<br> *</font> indique que le champ est obligatoire<br>merci de les remplirs</i><td>
-
-                    <tr>
-
-                        <td colspan="2">
-
-                            <input type="submit" value="Envoyer le formulaire à l'administrateur">
-
-                        </td>
-
-                    </tr>
-
-                    <td colspan=2>
-
-                        <input type="reset" value="Recommencer votre formulaire">
-
-                    </td>
-
-                </font>
-
-            </table>
-
-        </form>
-
-    </div>
+        </div>
 
     </body>
 
