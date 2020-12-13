@@ -10,6 +10,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added files [html.html](https://github.com/Florian-COLLIN/learn-programming/blob/docs/html.html) ;
 - Added files [prism.js](https://github.com/Florian-COLLIN/learn-programming/blob/docs/prism.js) ;
 - Added files [prism.css](https://github.com/Florian-COLLIN/learn-programming/blob/docs/prism.css) ;
+- Added files [balise-head.html](https://github.com/Florian-COLLIN/learn-programming/blob/docs/balise-head.html) ;
+- Added files [balise-body.html](https://github.com/Florian-COLLIN/learn-programming/blob/docs/balise-body.html) ;
 
 ### Bugs
 - ([2](https://github.com/Florian-COLLIN/learn-programming/issues/2)) : Added links to home pages ;
@@ -25,7 +27,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Repare bugs in [style.css](https://github.com/Florian-COLLIN/learn-programming/blob/docs/style.css).
 
 ### Update
-- Upadte pages versions.html and about.html.
+- Upadte pages versions.html and [about.html](https://github.com/Florian-COLLIN/learn-programming/blob/docs/about.html).
 
 ## [1.1.1] - 2020-11-19
 ### Added
