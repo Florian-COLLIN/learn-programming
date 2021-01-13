@@ -1,0 +1,22 @@
+{
+	"about": {
+		"auteur": "Florian COLLIN",
+		"version": "1.1.1",
+		"date_première_version": "1er novembre 2020",
+		"date_dernière_version": "13 décembre 2020"
+	},
+	"versions": {
+		"1.1.1": {
+			"date": "1er novembre 2020",
+			"auteur": "Florian COLLIN"
+		},
+		"1.1.2": {
+			"date": "11 décembre 2020",
+			"auteur": "Florian COLLIN"
+		},
+		"1.2.1": {
+			"date": "13 décembre 2020",
+			"auteur": "Florian COLLIN"
+		}
+	},
+},
